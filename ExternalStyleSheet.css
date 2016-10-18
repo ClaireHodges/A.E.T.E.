@@ -17,6 +17,13 @@
 	text-decoration: underline;
 	font-weight: bold;
 }
+.mainTitle{
+	font-family: Arial, Sans-serif;
+	font-size: 600%;
+	text-align: left;
+	position: static;
+
+}
 
 
 .content{
