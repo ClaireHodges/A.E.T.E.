@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+.menu{
+	position:fixed;
+	font-family: Arial, Sans-serif;
+	font-size: 150%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.title{
+	font-family: Arial, Sans-serif;
+	font-size: 300%;
+	text-align: center;
+	position: static;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.content{
+	font-family: Arial, Sans-serif;
+	font-size: 100%;
+	text-align: center;
+	position: static;
+
+}
+
+</html>
