@@ -1,13 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 
-.menu{
-	position:fixed;
-	font-family: Arial, Sans-serif;
-	font-size: 150%;
-	text-align: center;
-	font-weight: bold;
-}
 
 .title{
 	font-family: Arial, Sans-serif;
@@ -38,8 +31,8 @@
 	text-align: center;
 	position: static;
 	width:100%;
-	position: relative;
-	right:50%;
+	position:relative;
+	left:0%;
 
 }
 
@@ -53,25 +46,22 @@
 	right:0%;
 }
 
-.center{
-	position:absolute;
-	right:40%;
-	vertical-align:text-bottom;
+.challenges{
+	text-align:left;
 }
 
-.center2{
+
+.book{
 	position:absolute;
-	right:30%;
+	left:35%;
+	width:100%;
 	vertical-align:text-bottom;
+	margin: 150px 0px 0px 0px;
 }
 
 
 .awesomecontent{
 	width:50%;
-	text-align: center;
-	font-family: Arial, Sans-serif;
-	font-size: 100%;
-	vertical-align:text-top;
 	position:absolute;
 	left:25%;
 }
