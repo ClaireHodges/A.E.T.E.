@@ -45,9 +45,8 @@
 	text-align: center;
 	position: static;
 	width:100%;
-	position: relative;
-	right:50%;
-	float: left;
+	position:relative;
+	left:0%;
 
 }
 
@@ -61,18 +60,22 @@
 	right:0%;
 }
 
-.center{
-	position:absolute;
-	right:35%;
-	vertical-align:text-bottom;
+.challenges{
+	text-align:left;
 }
+
+
+.book{
+	position:absolute;
+	left:35%;
+	width:100%;
+	vertical-align:text-bottom;
+	margin: 150px 0px 0px 0px;
+}
+
 
 .awesomecontent{
 	width:50%;
-	text-align: center;
-	font-family: Arial, Sans-serif;
-	font-size: 100%;
-	vertical-align:text-top;
 	position:absolute;
 	left:25%;
 }
