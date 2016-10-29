@@ -10,7 +10,6 @@
 	text-decoration: underline;
 	font-weight: bold;
 	width: 100%;
-	left:0%;
 }
 
 .mainTitle{
@@ -29,11 +28,19 @@
 	font-family: Arial, Sans-serif;
 	font-size: 100%;
 	text-align: center;
-	position: static;
 	width:100%;
-	position:relative;
-	left:0%;
+}
 
+.subtitles{
+	font-family: Arial, Sans-serif;
+	font-size:150%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.center{
+	position:absolute;
+	right:40s%;
 }
 
 .left{
@@ -48,8 +55,13 @@
 
 .challenges{
 	text-align:left;
+	width:50%;
+	margin:100px 0px 0px 0px;
 }
 
+.videos{
+	max-width:350px;
+}
 
 .book{
 	position:absolute;
