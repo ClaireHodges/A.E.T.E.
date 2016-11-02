@@ -1,34 +1,58 @@
 <!DOCTYPE HTML>
 <html>
 
+*{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Helvetica, Arial, Sans-serif;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.menu{
+	position:fixed;
+	font-family: Arial, Sans-serif;
+	font-size: 150%;
+	text-align: center;
+	font-weight: bold;
+}
 
 .title{
 	font-family: Arial, Sans-serif;
 	font-size: 300%;
 	text-align: center;
 	position: relative;
-	text-decoration: underline;
 	font-weight: bold;
 	width: 100%;
+	left:0%;
+	color: rgb(134,80,32);
 }
 
 .mainTitle{
 	font-family: Arial, Sans-serif;
 	font-size: 470%;
-	text-align: left;
-	position: static;
-	margin: 1px, 1px, 1px, 1px;
+	width: 100%;
 	color: rgb(97,65,0);
-	background-color: rgb(0,158,190);
-	padding: 0px, 0px, 0px, 0px;
+	background-color: rgba(0,158,190,0.53);
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-left: 14px;
+	
 }
 
 
 .content{
-	font-family: Arial, Sans-serif;
-	font-size: 100%;
-	text-align: center;
-	width:100%;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 120%;
+	text-align: left;
+	position: static;
 }
 
 .subtitles{
@@ -41,6 +65,16 @@
 .center{
 	position:absolute;
 	right:40%;
+}
+
+.textwrap
+{
+float: left;
+margin-left:10px;
+margin-right:10px;
+margin-top:3px;
+margin-bottom:10px;
+border:2px solid rgb(134,80,32);
 }
 
 .left{
@@ -90,5 +124,27 @@
 	position:absolute;
 	left:25%;
 }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ .image{
+ 	display: inline-block;
+ }
 
 </html>
