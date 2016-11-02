@@ -53,10 +53,18 @@ body
 	font-size: 120%;
 	text-align: left;
 	position: static;
-	width:100%;
-	position:relative;
-	left:0%;
+}
 
+.subtitles{
+	font-family: Arial, Sans-serif;
+	font-size:150%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.center{
+	position:absolute;
+	right:40s%;
 }
 
 .textwrap
@@ -81,8 +89,13 @@ border:2px solid rgb(134,80,32);
 
 .challenges{
 	text-align:left;
+	width:50%;
+	margin:100px 0px 0px 0px;
 }
 
+.videos{
+	max-width:350px;
+}
 
 .book{
 	position:absolute;
