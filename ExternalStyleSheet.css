@@ -7,6 +7,7 @@
 body
 {
 	font-family: Helvetica, Arial, Sans-serif;
+	background-color: rgba(0, 158, 190, 0.3);
 }
 .row::after {
     content: "";
@@ -30,7 +31,7 @@ body
 	font-weight: bold;
 	width: 100%;
 	left:0%;
-	color: rgb(134,80,32);
+	color: rgb(97,65,0);
 }
 
 .mainTitle{
@@ -38,7 +39,6 @@ body
 	font-size: 470%;
 	width: 100%;
 	color: rgb(97,65,0);
-	background-color: rgba(0,158,190,0.53);
 	-webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     -webkit-margin-start: 0px;
@@ -70,7 +70,7 @@ body
 .textwrap
 {
 float: left;
-margin-left:10px;
+margin-left:0%;
 margin-right:10px;
 margin-top:3px;
 margin-bottom:10px;
@@ -123,6 +123,11 @@ border:2px solid rgb(134,80,32);
 	width:50%;
 	position:absolute;
 	left:25%;
+}
+
+#whatwedo {
+	text-align: left;
+	padding-left: 32%;
 }
 
 [class*="col-"] {
