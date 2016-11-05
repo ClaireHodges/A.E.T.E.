@@ -31,7 +31,7 @@ body
 	font-weight: bold;
 	width: 100%;
 	left:0%;
-	color: rgb(134,80,32);
+	color: rgb(97,65,0);
 }
 
 .mainTitle{
@@ -71,7 +71,7 @@ body
 .textwrap
 {
 float: left;
-margin-left:10px;
+margin-left:0%;
 margin-right:10px;
 margin-top:3px;
 margin-bottom:10px;
@@ -96,6 +96,10 @@ border:2px solid rgb(134,80,32);
 
 }
 
+#whatwedo {
+	text-align: left;
+	padding-left: 32%;
+}
 
 [class*="col-"] {
     float: left;
