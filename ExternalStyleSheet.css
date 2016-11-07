@@ -36,7 +36,7 @@ body
 }
 
 .mainTitle{
-	font-family: Arial, Sans-serif;
+	font-family: Helvetica, Arial, Sans-serif;
 	font-size: 470%;
 	width: 90%;
 	   color: rgb(3, 49, 86);
@@ -76,10 +76,11 @@ hr {
 }
 
 .subtitles{
-	font-family: Arial, Sans-serif;
+	font-family: Helvetica, Arial, Sans-serif;
 	font-size:150%;
 	text-decoration: underline;
 	font-weight: bold;
+	 color: rgb(3, 49, 86);
 }
 
 #nocolor{
