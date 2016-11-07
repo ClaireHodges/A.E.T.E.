@@ -53,6 +53,7 @@ body
 	font-size: 120%;
 	text-align: left;
 	position: static;
+	line-height: 150%;
 }
 
 .footer{
@@ -67,7 +68,7 @@ body
 	margin-top:15px;
 }
 
-hr {
+hr{
     border-top-width: 10px;
     border-top-color: rgba(0, 0, 0, 1);
     border-bottom-width: 10px;
@@ -87,7 +88,7 @@ hr {
 	background: rgba(0, 0, 0, 0);
 }
 
-.textwrap
+.textwrap1
 {
 float: left;
 margin-left:0%;
@@ -96,7 +97,15 @@ margin-top:3px;
 margin-bottom:10px;
 border:2px solid rgb(134,80,32);
 }
+ .textwrapleft
+ {
+ 	float:left;
 
+ }
+ .textwrapright
+ {
+ 	float:right;
+ }
 
 .right2{
 	float: right;
