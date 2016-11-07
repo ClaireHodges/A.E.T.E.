@@ -131,3 +131,7 @@ border:2px solid rgb(134,80,32);
  	display: inline-block;
  }
 
+ #nofloat{
+ 	float:none;
+ }
+
