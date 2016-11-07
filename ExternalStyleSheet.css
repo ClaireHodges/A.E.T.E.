@@ -82,6 +82,9 @@ hr {
 	font-weight: bold;
 }
 
+#nocolor{
+	background: rgba(0, 0, 0, 0);
+}
 
 .textwrap
 {
@@ -129,5 +132,9 @@ border:2px solid rgb(134,80,32);
 
  .image{
  	display: inline-block;
+ }
+
+ #nofloat{
+ 	float:none;
  }
 
