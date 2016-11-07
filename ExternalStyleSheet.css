@@ -118,6 +118,12 @@ border:2px solid rgb(134,80,32);
 }
 
 
+.col-6nopad{
+	width:50%;
+	float:left;
+	padding:0px;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
