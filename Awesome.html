@@ -1,7 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
+<<<<<<< HEAD
 		ul {
     list-style-type: none;
     margin: 0;
@@ -27,10 +30,40 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     background: #efefef;
+=======
+        nav ul ul {
+    display: none;
+}
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+    nav ul {
+    background: #efefef; 
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #ad602c 0%,#462b0a 100%);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    padding-right: 55%;
+    padding-left: 0%;
+}
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+    nav ul li {
+    float: left;
+}
+    nav ul li:hover {
+        background: #efefef;
+>>>>>>> d984ea34d9d2f6096297f1b03a82db481fcad454
         background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
         background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
         background: -webkit-linear-gradient(top, #8a512b 0%,#2c1a05 100%);
             color: #fff;
+<<<<<<< HEAD
 }
 
 li.dropdown {
@@ -59,15 +92,59 @@ li.dropdown {
     display: block;
 }
 	</style>
+=======
+        }
+    
+    nav ul li a {
+        display: block; padding: 25px 40px;
+            color: #fbf5f5; text-decoration: none;
+    }
+    nav ul ul {
+    background: #8a4c22; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+    nav ul ul li {
+        float: none; 
+        border-top: 1px solid #6b727c;
+        border-bottom: 1px solid #575f6a;
+        position: relative;
+    }
+        nav ul ul li a {
+            padding: 15px 40px;
+            color: #fff;
+        }   
+            nav ul ul li a:hover {
+                     background-color: #55350e;
+            }
+
+
+    </style>
+>>>>>>> d984ea34d9d2f6096297f1b03a82db481fcad454
 
 	<title>Challenges</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="ExternalStyleSheet.css">
+
 </head>
 <body>
 
-	<h1 class = "mainTitle">A.E.T.E</h1>
+<h1 class = "mainTitle">A.E.T.E</h1>
 
+<nav>
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="#">Information</a>
+            <ul>
+                <li><a href="thestaff.html">Staff</a></li>
+                <li><a href="meetings.html">Next Meeting</a></li>
+            </ul>
+        </li>
+        <li><a href="Awesome.html">Awesomeness</a>
+        </li>
+    </ul>
+</nav>
+
+<<<<<<< HEAD
 	<ul>
   <li><a href="Index.html">Home</a></li>
   <li class="dropdown">
@@ -79,39 +156,68 @@ li.dropdown {
   </li>
    <li><a href="Awesome.html">Awesomness</a></li>
 </ul>
+=======
+>>>>>>> d984ea34d9d2f6096297f1b03a82db481fcad454
 
  	<h1 class="title">Challenges</h1>
 
-  	<div class="content">Hippopotomonstrosesquippedaliophobia: the fear of long words.</div>
+ 	<h2 class="subtitles">Videos</h2>
+
+  	<div class="col-11 content">This first song is about <strong>Hippopotomonstrosesquippedaliophobia</strong>. It's one of the longest words in English, which is ironic,because it means the fear of long words. Use this song to practise pronounciation and to help you remember the meaning, and if you manage that see if you can spell it without the video! </div>
+
+  	<div class="col-11 content">The second song is a song about rhyming. Although it may seem childish, this should improve your ability to form a rhyming couplet. Songs and poetry are very similar, after all.</div>
 
   	<br>
+ 
+	<video src="LongWordSong.mp4" controls poster="./Images/LongWordSongImage.jpg" class="col-5"></video>
 
-	
-  	<center>
-		<video width="75%" src="LongWordSong.mp4" controls poster="./Images/LongWordSongImage.jpg" class="center50"></video>
-	</center>
-
-	<br>
-
-	<center>
-		<video width="75%" src="ColorSong.mp4" controls class="center50"</video>
-	</center>
-
-
-
-	<div class="content">I think everybody should be able to pronounce the Thames. This is the name of a major river that runs through London. Listen to this audio and practise your pronounciation!</div>
+	<video src="ColorSong.mp4" controls poster="./Images/ColorSongPic.jpg" class="col-5" ></video>
 
 	<br>
 
-	<center>
-	<audio src="thames.mp3" controls class="center50"></audio>
-	</center>
+	<hr>
 
-	<img src="./Images/Smile.png" alt="exclamation mark"" style="width:15%" class="right">
+	<h2 class="subtitles">Audios</h2>
 
-</body>
-</html>
+	<div class="col-11 content">I think everybody should be able to pronounce the Thames. This is the name of a major river that runs through London. Listen to this audio and practise your pronounciation!</div>
 
+	<br>
+
+	<audio src="thames.mp3" controls class="col-11"></audio>
+
+	<hr>
+
+	<h2 class="subtitles">Useful Links</h2>
+
+	<a href="http://nicememewebsitewebsitewebsitewebsitewebsite.website" class="content" target="_blank">Helpful Vocab... Well, not really, but you could pretend it is if you want!</a>
+
+	<hr>
+
+	<h2 class="subtitles">Other</h2>
+
+	<div class="col-11 content">English is a strange language... I mean, just look at this sentence! It has 7 different meanings depending which word you emphasise! Try it! </div>
+
+	<img src="./Images/ManyMeanings.png" alt="I Never Said She Stole My Money" class="col-11" height="80">
+
+
+	<div class="col-11 content">
+		<ol>
+			<li><span style="text-decoration:underline"><strong>I</strong></span> never said she stole my money.</li>
+			<li>I <span style="text-decoration:underline"><strong>never</strong></span> said she stole my money.</li>
+			<li>I never <span style="text-decoration:underline"><strong>said</strong></span> she stole my money.</li>
+			<li>I never said <span style="text-decoration:underline"><strong>she</strong></span> stole my money.</li>
+			<li>I never said she <span style="text-decoration:underline"><strong>stole</strong></span> my money.</li>
+			<li>I never said she stole <span style="text-decoration:underline"><strong>my</strong></span> money.</li>
+			<li>I never said she stole my <span style="text-decoration:underline"><strong>money</strong></span>.</li>
+		</ol>
+	</div>
+
+
+	<div class="footer" width="100%">
+		<h3>Contact us!</h3>
+		<p>Email address: email.email@email.com</p>
+		<p>Phone Number:000000000</p>
+	</div>
 
 
 </body>
